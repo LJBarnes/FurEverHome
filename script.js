@@ -5,17 +5,31 @@
 //       console.log(response);
 
 //     });
-
-var queryURL = `https://api.thedogapi.com/v1/breeds?api_key=2348f10e-3705-4583-95c1-15be926331eb`;
+var searchTerm = "akita";
+var queryURL = "https://api.thedogapi.com/v1/breeds/search?q=" +searchTerm + "&api_key=2348f10e-3705-4583-95c1-15be926331eb";
 var breedID;
-var imgQueryURL = "https://api.thedogapi.com/v1/images/search?breed_id=" + breedID + "&api_key=2348f10e-3705-4583-95c1-15be926331eb"
 $.ajax({
   url: queryURL,
   method: "GET",
   contentType: 'application/json'
 }).then(function (response) {
   console.log(response);
-  console.log(response[1].id);
+  console.log("dog id", response[0].id);
+  breedID = response[0].id 
+  var imgQueryURL = "https://api.thedogapi.com/v1/images/search?breed_id=" + breedID + "&api_key=2348f10e-3705-4583-95c1-15be926331eb"
+
+  console.log(imgQueryURL);
+  $.ajax({
+
+    url: imgQueryURL,
+    method: "GET",
+    contentType: 'application/json'
+  }).then(function (response) {
+    console.log("img url", response);
+  });
+    // save to a variable and use to create image
+  
+
   // for (var i = 0; i < 3; i++) {
   //   breedID = response[i].id;
   //   console.log(breedID);
