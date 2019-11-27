@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/8f12aa1bd5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- Nav bar -->
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo center">Fur Ever Home</a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+      </ul>
+    </div>
+
+  </nav>
+
+  <!-- Dogs card -->
+  <div class="row">
+    <div class="col s6 m6">
+      <div class="card">
+
+        <!-- Info from search shows up here -->
+        <div class="card-content">
+
+          <form>
+            <input id="dogSearchTerm" type="text" placeholder="search dog breeds">
+            <button type="submit" id="dogSearchBtn" class="btn btn-primary"><i class="fas fa-search fa-sm"></i></button>
+          </form>
+          <div id="dogDiv">
+          </div>
+        </div>
+        <div class="card-action">
+        </div>
+      </div>
+    </div>
+
+    <!-- Cats card -->
+    <div class="col s6 m6">
+      <div class="card">
+        <div class="card-content">
+
+          <form>
+            <input id="search-term" type="text" placeholder="search cat breeds">
+            <button type="submit" id="searchBtn" class="btn btn-primary"><i class="fas fa-search fa-sm"></i></button>
+          </form>
+          <div id="catDiv">
+          </div>
+        </div>
+        <div class="card-action">
+        </div>
+      </div>
+    </div>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="assets/Javacript/dogScript.js"></script>
+    <script src="assets/Javascript/catScript.js"></script>
+
+</body>
+
+</html>
