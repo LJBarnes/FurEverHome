@@ -7,7 +7,7 @@ A web application that provides images and information about different dog and c
 # How It Works
 FurEver Home utilizes user input and jQuery Ajax calls to get information and images about cat and dog breeds from The Cat API and The Dog API. Once the Ajax call retrieves the specified data, the HTML is dynamically updated to display the image and information.
 
-![FurEverHomeB](https://user-images.githubusercontent.com/53705501/70006564-ac86f180-153b-11ea-8329-dd712117033b.jpg)
+![FurEverHomeB](https://user-images.githubusercontent.com/53705501/70007184-6df23680-153d-11ea-8d87-6fbe4b67d840.jpg)
 ![FurEverHomeC](https://user-images.githubusercontent.com/53705501/70006618-de985380-153b-11ea-8b2d-12a68fe11748.png)
 ![FurEverHomeD](https://user-images.githubusercontent.com/53705501/70006631-e22bda80-153b-11ea-84c4-33ba7303777b.jpg)
 ![FurEverHomeE](https://user-images.githubusercontent.com/53705501/70006637-e6f08e80-153b-11ea-9be7-aadd9192690f.jpg)
