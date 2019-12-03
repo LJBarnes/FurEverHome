@@ -1,0 +1,143 @@
+
+
+
+.brand-logo {
+  color: black;
+}
+
+.tealbg {
+  background-color: #00acc1 ;
+}
+
+.gray-text{
+  color: #757575
+}
+
+.card {
+
+    width: 520px;
+    height: 750px;
+    /* change made: margin: # auto will center left and right */
+    margin: 50px auto;
+    border: solid 10px #757575;
+}
+
+.nav-wrapper {
+    border: solid;
+    color: #757575;
+}
+
+
+
+.card-content {
+  /* change made: padding 0 takes care of padding all the way around since it's the same number, no need to set top, bottom, left and right */
+    padding: 0;
+    
+    /* margin-left: 50px;
+    margin-right: 50px; */
+    /* padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px; */
+    /* width: 400px; */
+    /* height: 53; */
+}
+
+/* Change made: doesn't seem to need this after other changes made. */
+/* #dogSearchTerm {
+    width: 296px; */
+/* } */
+
+.textColor {
+  color: #757575;
+}
+
+body {
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+   background: #00acc1;
+ }
+
+ main {
+   flex: 1 0 auto;
+ }
+
+ .page-footer {
+   padding: 0;
+   margin: 0;
+ }
+
+.dogImg {
+  height: 330px;
+  width: 380px;
+    margin:0 auto;
+    
+}
+
+.catImg {
+  height: 330px;
+  width: 380px;
+  margin: 0 auto;
+}
+
+#catDiv {
+  text-align: center;
+  margin-top: 15px;
+
+}
+
+nav {
+  height: 200px; 
+  /* line-height: 30px; */
+}
+
+span.brand-logo  {
+  font-size: 60px;
+  margin-top: 20px;
+  
+}
+
+li {
+  margin-top: 110px;
+}
+
+/* .petpics {
+width:100%;
+margin: 100px 0;
+/* position: relative; */
+
+
+#dogDiv {
+  text-align: center;
+  margin-top: 15px;
+
+}
+
+form {
+  margin: 0 auto;
+}
+
+ .writeup {
+  opacity: 0.9;
+  margin: 20px auto;
+  text-align: center;  
+  background: white;
+  font: black;
+  font-weight: bold;
+  font-family:'Lato', sans-serif;
+  font-size: 18px;
+}
+
+p{
+  padding: 20px;
+}
+
+#toSearchPage {
+  margin: 20px;
+  
+}
+
+a {
+  color: white;
+}
