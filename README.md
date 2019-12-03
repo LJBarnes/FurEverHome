@@ -27,7 +27,9 @@ This application does not require installation and runs in the browser.
 
 # Authors
 Leah Barnes
+
 Patrick Dorgu
+
 Matt Starr
 
 # License
