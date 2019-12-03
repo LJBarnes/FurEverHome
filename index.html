@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FurEver Home</title>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8f12aa1bd5.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css?family=Dancing+Script|Mali|Merienda|Shadows+Into+Light+Two|Yesteryear&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('assets/images/pets.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: bottom;
+            background-size: 100%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <!-- Nav bar -->
+
+        <nav>
+            <div class="nav-wrapper grey darken-1 z-depth-2">
+                <span class="brand-logo left"><img src="assets/images/logo1.png" width="500px" height="auto"></span>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="search.html">Search Breeds</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="index.html">About</a></li>
+            <li><a href="search.html">Search Breeds</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <!-- <img class="petpics z-depth-2" src="pets.jpg"> -->
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col s12 writeup">
+
+
+                    <p> Do you like hiking or are you more of a couch potato? Allergic to pet dander and need a
+                        non-shedder? Live on a farm or in an apartment? With FurEver Home you can explore over 60 breeds of
+                        cats and dogs to find a breed that best fits your lifestyle.<br><br>
+
+                        You may wonder why this is important. Pets are often rescued from shelters or even bought from
+                        breeders
+                        only to be re-homed (sometimes more than once) because it turns out they aren't a good fit for their adopter's
+                        lifestyle. It is our hope
+                        that by using FurEver Home, users will become better informed about different breeds and can adopt
+                        more responsibly!</p>
+                        <button id="toSearchPage"
+                                class="waves-effect waves-light btn deep-purple accent-2 z-depth-2 "><a href="search.html">Start Searching</a></button>
+                </div>
+
+
+            </div>
+        </div>
+        
+    </main>
+
+    <footer class="page-footer grey darken-1">
+
+        <div class="container">
+            <div class="row">
+                <div class="col s12 center">
+                    © 2019
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+   
+    <script>
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+        });
+    </script>
+
+</body>
+
+</html>
