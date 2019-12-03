@@ -1,0 +1,39 @@
+.card {
+
+    width: 516.250px;
+    height: 680px;
+    align-content: center;
+
+
+
+}
+
+.nav-wrapper {
+
+    border: solid;
+    color: black;
+}
+
+
+
+.card-content {
+
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    /* width: 400px; */
+    /* height: 53; */
+}
+
+#search-term {
+
+    width: 296px;
+}
+
+#dogSearchTerm {
+
+    width: 296px;
+}
