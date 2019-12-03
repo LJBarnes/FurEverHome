@@ -18,7 +18,7 @@ This application does not require installation and runs in the browser.
 
 # Built With
 [The Dog API](https://docs.thedogapi.com/) - Dog breed information and images
-[The Cat API](https://docs.thecatapi.com/ -) Cat breed information and images
+[The Cat API](https://docs.thecatapi.com/) - Cat breed information and images
 [jQuery](https://jquery.com/) - JavaScript Library
 [Materialize CSS](https://materializecss.com/) - Responsive CSS Framework
 
